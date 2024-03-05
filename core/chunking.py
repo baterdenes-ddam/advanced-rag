@@ -135,7 +135,7 @@ def split_text(text, max_length=49000):
 
 
 def chunk_file(paths):
-    print("NOOO CHUNKING AGAINN!!!!!!!!!!!!!")
+
     single_sentences_list = []
     for path in paths:
         try:

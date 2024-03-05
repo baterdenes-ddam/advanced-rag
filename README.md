@@ -33,8 +33,8 @@ By following this method, we can programmatically identify sections within a tex
 4. Export your API keys to you environment variables:
 
     ```bash
-    EXPORT "OPENAI_API_KEY" = "sk-***********"
-    EXPORT "COHERE_API_KEY" = "***********"
+    EXPORT OPENAI_API_KEY = "sk-***********"
+    EXPORT COHERE_API_KEY = "***********"
     ```
 
 5. Install needed dependecies:
@@ -54,3 +54,7 @@ By following this method, we can programmatically identify sections within a tex
     ```bash
     poetry run streamlit run main.py
     ```
+
+## Demonstration
+
+![Demonstration screenshot](screenshots/screenshot.png)

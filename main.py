@@ -25,17 +25,17 @@ cohere_api_key = os.getenv("COHERE_API_KEY")
 
 if not openai_api_key:
     st.warning(
-        "Please export your API key in command line"
-        "EXPORT 'OPENAI_API_KEY'='sk-**************'"
-        "You can get a key at"
+        "Please export your OpenAI API key in command line \n"
+        "EXPORT OPENAI_API_KEY='sk-**************'\n"
+        "You can get a key at\n"
         "https://platform.openai.com/account/api-keys"
     )
 
 if not cohere_api_key:
     st.warning(
-        "Please export your API key in command line to your environment variables"
-        "EXPORT 'COHERE_API_KEY'='**************'"
-        "You can get a key at"
+        "Please export your Cohere API key in command line to your environment variables\n"
+        "EXPORT COHERE_API_KEY='**************'\n"
+        "You can get a key at\n"
         "https://dashboard.cohere.com/api-keys"
     )
 
