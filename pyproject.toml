@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "advanced-rag-ddam"
+version = "0.1.0"
+description = ""
+authors = ["Bat-Erdene Sukh-Ochir <s.bat-erdene@mn.data-artist.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+watchdog = "^4.0.0"
+openai = "^1.13.3"
+langchain = "^0.1.10"
+spacy = "^3.7.4"
+pdfminer-six = "^20231228"
+langchain-openai = "^0.0.8"
+pymupdf = "^1.23.26"
+scikit-learn = "^1.4.1.post1"
+chromadb = "^0.4.24"
+cohere = "^4.52"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
